@@ -1,0 +1,1 @@
+export default function Questions(){return <div className="page"><span className="badge">Questions</span><h1>Ask better questions</h1><div className="grid">{["What does this finding mean in my situation?","Is follow-up testing recommended and why?","What options and risks should we discuss?"].map(x=><div className="card" key={x}><p>{x}</p></div>)}</div></div>}
