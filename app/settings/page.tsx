@@ -1,0 +1,1 @@
+export default function Settings(){return <div className="page"><span className="badge">Settings</span><h1>Preferences</h1><div className="card"><label>Language<select><option>English</option><option>Hindi</option><option>Gujarati</option></select></label><p className="muted">Demo preferences are local to this page.</p></div></div>}
